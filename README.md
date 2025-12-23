@@ -10,6 +10,8 @@ A modern, responsive Netflix clone built with HTML, CSS, and vanilla JavaScript.
 
 ## 📸 Preview
 
+<img width="800" height="650" alt="image" src="https://github.com/user-attachments/assets/e5a4c1a9-7b04-44d1-ad92-aa1d36fe7074" />
+<img width="800" height="650" alt="image" src="https://github.com/user-attachments/assets/57fb7812-673a-4efb-ae32-4c43ecc5c91f" />
 
 
 ## ✨ Features
