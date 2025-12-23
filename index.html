@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone - Watch Movies & TV Shows Online</title>
+    <meta name="description" content="Netflix UI Clone built using HTML, CSS and JavaScript with TMDB API." />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body id="home">
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+    <nav class="navbar">
+        <div class="navbar-left">
+            <h1 class="logo">NETFLIX</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tv-shows">TV Shows</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#new-popular">New & Popular</a></li>
+                <li><a href="#my-list">My List</a></li>
+            </ul>
+        </div>
+
+        <div class="navbar-right">
+            <button class="search-btn">🔍</button>
+            <button class="notifications-btn">🔔</button>
+            <div class="profile">
+                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Ishika" alt="Profile">
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+    <div class="hero-content">
+        <h2 class="hero-title">Stranger Things</h2>
+
+        <div class="hero-rating">
+            <span class="match">98% Match</span>
+            <span>2024</span>
+            <span class="rating">U/A 16+</span>
+            <span>4 Seasons</span>
+        </div>
+
+        <p class="hero-description">
+            When a young boy vanishes, a small town uncovers a mystery involving secret
+            experiments, terrifying supernatural forces and one strange little girl.
+        </p>
+
+        <div class="hero-buttons">
+            <button class="btn btn-primary">▶ Play</button>
+            <button class="btn btn-secondary">ℹ More Info</button>
+        </div>
+    </div>
+    <div class="hero-fade"></div>
+</section>
+
+<!-- ================= MAIN CONTENT ================= -->
+<main class="main-content">
+
+    <!-- Trending -->
+    <section class="movie-row">
+        <h3 class="row-title">Trending Now</h3>
+        <div class="row-posters" id="trending"></div>
+    </section>
+
+    <!-- TV Shows -->
+    <section class="movie-row" id="tv-shows">
+        <h3 class="row-title">TV Shows</h3>
+        <div class="row-posters" id="top-rated"></div>
+    </section>
+
+    <!-- Movies -->
+    <section class="movie-row" id="movies">
+        <h3 class="row-title">Movies</h3>
+        <div class="row-posters" id="action"></div>
+    </section>
+
+    <!-- New & Popular -->
+    <section class="movie-row" id="new-popular">
+        <h3 class="row-title">New & Popular</h3>
+        <div class="row-posters" id="comedy"></div>
+    </section>
+
+    <!-- My List -->
+    <section class="movie-row" id="my-list">
+        <h3 class="row-title">My List</h3>
+        <div class="row-posters" id="romance"></div>
+    </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <p style="text-align:center; color:#777; font-size:14px;">
+        Made with ❤️ by <strong>Ishika Gupta</strong>
+    </p>
+</footer>
+
+<!-- ================= JS ================= -->
+<script src="js/script.js"></script>
+
+<!--
+====================================================
+Netflix Clone Project
+Made by Ishika Gupta
+For educational & learning purposes only.
+====================================================
+-->
+
+</body>
+</html>
